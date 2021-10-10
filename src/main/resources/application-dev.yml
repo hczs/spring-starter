@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: 123456
+# 自定义swagger配置信息
+swagger:
+  title: SpringBoot脚手架
+  description: 以后开发项目直接拉脚手架，省去配置swagger、日志、异常处理等等麻烦事了
+  version: 1.0

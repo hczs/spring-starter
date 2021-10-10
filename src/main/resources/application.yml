@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  config: classpath:logback-spring.xml
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -1,0 +1,7 @@
+server:
+  port: 39090
+
+swagger:
+  title: SpringBoot脚手架
+  description: 以后开发项目直接拉脚手架，省去配置swagger、日志、异常处理等等麻烦事了
+  version: 0.1
