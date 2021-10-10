@@ -4,4 +4,4 @@
 基于spring boot2.5.5、Swagger2.9.2、MyBatis-Plus3.4.3
 
 # 使用
-拉取项目，下载依赖即可运行，提供了一个UserController样例，可以自行测试
+拉取项目，下载依赖，导入数据库文件user.sql，即可运行，提供了一个UserController样例，可以自行测试
